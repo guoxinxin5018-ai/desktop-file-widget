@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>安装_桌面文件小组件</AssemblyName>
+    <RootNamespace>DesktopFileWidgetInstaller</RootNamespace>
+    <Version>3.8.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\publish\桌面文件小组件.exe" LogicalName="Payload.DesktopFileWidget.exe" />
+  </ItemGroup>
+</Project>
